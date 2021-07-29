@@ -8,6 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -54,7 +55,7 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-top-right-radius: 1 rem;
+  border-top-right-radius: 1.5rem;
 }
 .navigatoin .nav-brand {
   font-weight: bold;
@@ -80,6 +81,7 @@ hr {
   margin: auto;
 }
 .hero-heading {
+  text-align: center;
   padding: 1rem;
   color: var(--dark-gray);
 }
@@ -96,4 +98,19 @@ hr {
 }
 .ow {
   background-color: var(--light-gray);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 1.5rem;
+}
+.footer .link {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0px;
 }
