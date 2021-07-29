@@ -45,3 +45,25 @@ hr {
   display: inline;
   padding: 0rem 0.5rem;
 }
+
+/*navigation*/
+
+.navigatoin {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+}
+.navigatoin .nav-brand {
+  font-weight: bold;
+}
+.navigatoin .nav-pills {
+  text-align: right;
+}
+.navigatoin .link {
+  color: white;
+}
+
+.navigatoin .link-active {
+  font-weight: bold;
+}
