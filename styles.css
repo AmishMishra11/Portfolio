@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #2563eb;
+  --dark-gray: #9ca3af;
 }
 
 body {
@@ -66,4 +67,21 @@ hr {
 
 .navigatoin .link-active {
   font-weight: bold;
+}
+
+/*header*/
+.hero {
+  padding: 2rem;
+}
+.hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero-heading {
+  padding: 1rem;
+  color: var(--dark-gray);
+}
+.hero .hero-heading .heading-iverted {
+  color: var(--primary-color);
 }
