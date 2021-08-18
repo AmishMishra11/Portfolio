@@ -56,6 +56,7 @@ hr {
   color: white;
   padding: 1rem;
   border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
 .navigatoin .nav-brand {
   font-weight: bold;
@@ -109,6 +110,7 @@ a {
   text-align: center;
   color: white;
   border-bottom-left-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
 }
 .footer .footer-header {
   font-weight: bold;
