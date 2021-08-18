@@ -8,7 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
+  margin: 1px;
 }
 
 hr {
@@ -70,7 +70,9 @@ hr {
 .navigatoin .link-active {
   font-weight: bold;
 }
-
+a {
+  display: inline-block;
+}
 /*header*/
 .hero {
   padding: 5rem;
