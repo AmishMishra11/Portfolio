@@ -124,3 +124,23 @@ a {
 .footer ul {
   padding-inline-start: 0px;
 }
+@media (max-width: 416px) {
+  .navigatoin {
+    padding: 1rem;
+  }
+  .navigatoin .nav-brand {
+    font-weight: bold;
+  }
+  .navigatoin .nav-pills {
+    text-align: right;
+    padding: 0rem 0.02rem;
+  }
+
+  .navigatoin .link-active {
+    font-weight: bold;
+  }
+  a {
+    display: inline-block;
+    padding: 0rem 0.2rem;
+  }
+}
